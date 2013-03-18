@@ -5,7 +5,7 @@ ListModel {
 
     //User Specific Properties
     property string count: "0";
-    property string id: ""
+    property string ids: ""
     property string vector: ""
     property string position: ""
     property string velocity: ""
@@ -18,7 +18,7 @@ ListModel {
 
     //List Elements
     ListElement {item: "No. Of Hands"; value:count}
-    ListElement {item: "Ids"; value: id}
+    ListElement {item: "Ids"; value: ids}
     ListElement {item: "Vector"; value: vector}
     ListElement {item: "Position"; value: position }
     ListElement {item: "Velocity"; value: velocity}
