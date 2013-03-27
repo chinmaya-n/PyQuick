@@ -7,7 +7,7 @@ Rectangle {
         messageText.text = text
     }
 
-    anchors.fill: parent; color: "black"
+    anchors.fill: parent; color: "blue"
 
     Text {
         id: messageText
